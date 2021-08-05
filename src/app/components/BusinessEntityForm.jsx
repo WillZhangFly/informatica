@@ -3,7 +3,8 @@ import { useSelector } from "react-redux";
 
 function BusinessEntityForm() {
   let entity = useSelector((state) => state.entity);
-  console.log("entity:::::", entity);
+  const meta = useSelector(state=> state.meta);
+  console.log("entity and meta" , entity, meta)
   return (
     <div className="justify-content-center d-flex">
       <div className="card p-3 col-6 mt-5">
