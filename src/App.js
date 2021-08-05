@@ -1,5 +1,5 @@
 import "./App.css";
-import BusinessEntityForm from "./components/BusinessEntityForm";
+import BusinessEntityForm from "./app/components/BusinessEntityForm";
 
 function App() {
   return (
