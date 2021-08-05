@@ -6,7 +6,7 @@ import logger from "redux-logger";
 export default configureStore({
   reducer: {
     entity: entityReducer,
-    meta:metaReducer
+    meta: metaReducer,
   },
   middleware: [logger],
 });
