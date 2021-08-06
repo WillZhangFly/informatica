@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import TextInput from "./TextInput";
 
@@ -10,8 +10,6 @@ function BusinessEntityForm() {
   const normalizeMeta = useSelector((state) => {
     return state.meta.field.filter((_metaField) => entity[_metaField.name]);
   });
-
-  console.log("compare", originValue, entity);
 
   const saveEntity = (e) => {
     e.preventDefault();

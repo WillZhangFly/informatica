@@ -1,6 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
-
-export const metaSlice = createSlice({
+const  meta = {
   name: "meta",
   initialState: {
     field: [
@@ -702,10 +700,7 @@ export const metaSlice = createSlice({
     label: "Person",
   },
   reducers: {
-    saveMeta: (state) => state,
   },
-});
+};
 
-export const { saveMeta } = metaSlice.actions;
-
-export default metaSlice.reducer;
+export default meta;
