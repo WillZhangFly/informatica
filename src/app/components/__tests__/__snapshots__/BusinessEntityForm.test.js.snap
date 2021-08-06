@@ -1,3 +1,416 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<BusinessEntityForm /> should render 1`] = `ShallowWrapper {}`;
+exports[`<BusinessEntityForm /> should render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="justify-content-center d-flex"
+      >
+        <div
+          class="card p-3 col-6 mt-5"
+        >
+          <h2>
+            Business Entity
+          </h2>
+          <form>
+            <div
+              class="form-group row"
+            >
+              <label
+                class="col-sm-2 col-form-label mt-3"
+                for="partyType"
+              >
+                Party Type
+              </label>
+              <div
+                class="col-sm-4"
+              >
+                <input
+                  class="form-control mt-3"
+                  id="partyType"
+                  type="text"
+                  value="Person"
+                />
+              </div>
+              <label
+                class="col-sm-2 col-form-label mt-3"
+                for="lastName"
+              >
+                Last Name
+              </label>
+              <div
+                class="col-sm-4"
+              >
+                <input
+                  class="form-control mt-3"
+                  id="lastName"
+                  type="text"
+                  value="HARLEY"
+                />
+              </div>
+              <label
+                class="col-sm-2 col-form-label mt-3"
+                for="displayName"
+              >
+                Display Name
+              </label>
+              <div
+                class="col-sm-4"
+              >
+                <input
+                  class="form-control mt-3"
+                  id="displayName"
+                  type="text"
+                  value="WILLIAM WINTON HARLEY"
+                />
+              </div>
+              <label
+                class="col-sm-2 col-form-label mt-3"
+                for="generationSuffixCd"
+              >
+                Generation Suffix Cd
+              </label>
+              <div
+                class="col-sm-4"
+              >
+                <input
+                  class="form-control mt-3"
+                  id="generationSuffixCd"
+                  type="text"
+                  value="III"
+                />
+              </div>
+              <label
+                class="col-sm-2 col-form-label mt-3"
+                for="middleName"
+              >
+                Middle Name
+              </label>
+              <div
+                class="col-sm-4"
+              >
+                <input
+                  class="form-control mt-3"
+                  id="middleName"
+                  type="text"
+                  value="WINTON"
+                />
+              </div>
+              <label
+                class="col-sm-2 col-form-label mt-3"
+                for="birthdate"
+              >
+                Birthdate
+              </label>
+              <div
+                class="col-sm-4"
+              >
+                <input
+                  class="form-control mt-3"
+                  id="birthdate"
+                  type="date"
+                  value="1886-09-07"
+                />
+              </div>
+              <label
+                class="col-sm-2 col-form-label mt-3"
+                for="taxId"
+              >
+                Tax ID
+              </label>
+              <div
+                class="col-sm-4"
+              >
+                <input
+                  class="form-control mt-3"
+                  id="taxId"
+                  type="text"
+                  value="1234567  "
+                />
+              </div>
+              <label
+                class="col-sm-2 col-form-label mt-3"
+                for="firstName"
+              >
+                First Name
+              </label>
+              <div
+                class="col-sm-4"
+              >
+                <input
+                  class="form-control mt-3"
+                  id="firstName"
+                  type="text"
+                  value="WILLIAM"
+                />
+              </div>
+              <label
+                class="col-sm-2 col-form-label mt-3"
+                for="rowidObject"
+              >
+                Rowid Object
+              </label>
+              <div
+                class="col-sm-4"
+              >
+                <input
+                  class="form-control mt-3"
+                  id="rowidObject"
+                  type="text"
+                  value="1242          "
+                />
+              </div>
+            </div>
+            <button
+              class="form-control mt-2 btn btn-primary col-4"
+              type="submit"
+            >
+              Save
+            </button>
+            <div
+              class="mt-4"
+            >
+              <h2>
+                Saved results print here:
+              </h2>
+              {}
+              ;
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="justify-content-center d-flex"
+    >
+      <div
+        class="card p-3 col-6 mt-5"
+      >
+        <h2>
+          Business Entity
+        </h2>
+        <form>
+          <div
+            class="form-group row"
+          >
+            <label
+              class="col-sm-2 col-form-label mt-3"
+              for="partyType"
+            >
+              Party Type
+            </label>
+            <div
+              class="col-sm-4"
+            >
+              <input
+                class="form-control mt-3"
+                id="partyType"
+                type="text"
+                value="Person"
+              />
+            </div>
+            <label
+              class="col-sm-2 col-form-label mt-3"
+              for="lastName"
+            >
+              Last Name
+            </label>
+            <div
+              class="col-sm-4"
+            >
+              <input
+                class="form-control mt-3"
+                id="lastName"
+                type="text"
+                value="HARLEY"
+              />
+            </div>
+            <label
+              class="col-sm-2 col-form-label mt-3"
+              for="displayName"
+            >
+              Display Name
+            </label>
+            <div
+              class="col-sm-4"
+            >
+              <input
+                class="form-control mt-3"
+                id="displayName"
+                type="text"
+                value="WILLIAM WINTON HARLEY"
+              />
+            </div>
+            <label
+              class="col-sm-2 col-form-label mt-3"
+              for="generationSuffixCd"
+            >
+              Generation Suffix Cd
+            </label>
+            <div
+              class="col-sm-4"
+            >
+              <input
+                class="form-control mt-3"
+                id="generationSuffixCd"
+                type="text"
+                value="III"
+              />
+            </div>
+            <label
+              class="col-sm-2 col-form-label mt-3"
+              for="middleName"
+            >
+              Middle Name
+            </label>
+            <div
+              class="col-sm-4"
+            >
+              <input
+                class="form-control mt-3"
+                id="middleName"
+                type="text"
+                value="WINTON"
+              />
+            </div>
+            <label
+              class="col-sm-2 col-form-label mt-3"
+              for="birthdate"
+            >
+              Birthdate
+            </label>
+            <div
+              class="col-sm-4"
+            >
+              <input
+                class="form-control mt-3"
+                id="birthdate"
+                type="date"
+                value="1886-09-07"
+              />
+            </div>
+            <label
+              class="col-sm-2 col-form-label mt-3"
+              for="taxId"
+            >
+              Tax ID
+            </label>
+            <div
+              class="col-sm-4"
+            >
+              <input
+                class="form-control mt-3"
+                id="taxId"
+                type="text"
+                value="1234567  "
+              />
+            </div>
+            <label
+              class="col-sm-2 col-form-label mt-3"
+              for="firstName"
+            >
+              First Name
+            </label>
+            <div
+              class="col-sm-4"
+            >
+              <input
+                class="form-control mt-3"
+                id="firstName"
+                type="text"
+                value="WILLIAM"
+              />
+            </div>
+            <label
+              class="col-sm-2 col-form-label mt-3"
+              for="rowidObject"
+            >
+              Rowid Object
+            </label>
+            <div
+              class="col-sm-4"
+            >
+              <input
+                class="form-control mt-3"
+                id="rowidObject"
+                type="text"
+                value="1242          "
+              />
+            </div>
+          </div>
+          <button
+            class="form-control mt-2 btn btn-primary col-4"
+            type="submit"
+          >
+            Save
+          </button>
+          <div
+            class="mt-4"
+          >
+            <h2>
+              Saved results print here:
+            </h2>
+            {}
+            ;
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

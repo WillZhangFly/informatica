@@ -1,5 +1,5 @@
 import React from "react";
-import { mount } from "enzyme";
+import { render, screen, fireEvent } from "../../utils/test-utils";
 import BusinessEntityForm from "../BusinessEntityForm";
 import { Provider } from "react-redux";
 import store from "../../store";
@@ -13,7 +13,7 @@ describe("<BusinessEntityForm />", () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = mount(
+    wrapper = render(
       <Provider store={store}>
         <BusinessEntityForm />
       </Provider>
@@ -25,6 +25,7 @@ describe("<BusinessEntityForm />", () => {
   });
 
   it("renders without crashing", () => {
-    expect(wrapper.find("button").length).toEqual(0);
+    fireEvent.click(screen.getByRole("button"), {});
+    expect(screen.queryByText(/WINTON/)).toBeInTheDocument();
   });
 });
