@@ -1,10 +1,11 @@
-import { TextInput } from "../TextInput";
+import TextInput from "../TextInput";
 import React from "react";
 import { shallow } from "enzyme";
 
 describe("TextInput component ", () => {
-  it("renders without crashing", () => {
-    const wrapper = shallow(
+  let wrapper;
+  beforeEach(() => {
+    wrapper = shallow(
       <TextInput
         handleChange={() => {}}
         value="test"
@@ -14,6 +15,11 @@ describe("TextInput component ", () => {
         dataType="String"
       />
     );
+  });
+  it("should render", () => {
+    expect(wrapper).toMatchSnapshot();
+  });
+  it("renders without crashing", () => {
     expect(wrapper.find("input").length).toEqual(1);
   });
 });
