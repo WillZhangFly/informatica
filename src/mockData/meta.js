@@ -1,4 +1,4 @@
-const  meta = {
+const meta = {
   name: "meta",
   initialState: {
     field: [
@@ -699,8 +699,7 @@ const  meta = {
     name: "Person",
     label: "Person",
   },
-  reducers: {
-  },
+  reducers: {},
 };
 
 export default meta;

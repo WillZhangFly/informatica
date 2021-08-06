@@ -22,8 +22,7 @@ const entity = {
     taxId: "1234567  ",
     firstName: "WILLIAM",
   },
-  reducers: {
-  },
+  reducers: {},
 };
 
 export default entity;

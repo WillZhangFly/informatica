@@ -9,16 +9,15 @@ import Adapter from "enzyme-adapter-react-16";
 
 configure({ adapter: new Adapter() });
 
-  
 describe("<BusinessEntityForm />", () => {
-   let wrapper;
+  let wrapper;
 
   beforeEach(() => {
-       wrapper = mount(
+    wrapper = mount(
       <Provider store={store}>
         <BusinessEntityForm />
       </Provider>
-    )
+    );
   });
 
   it("should render", () => {
